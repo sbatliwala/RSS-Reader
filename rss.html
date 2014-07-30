@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+<title>Rss feeds</title>
+ <link href="bootstrap.min.css" rel="stylesheet" />
+ <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+ <link href="rss.css" rel="stylesheet">
+ <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+ </head>
+ <body >
+ 	<header class="rss-header">
+   <p class="rss-title">RSS Feed Reader 1.0!</p>
+</header>
+<div class="container-fluid rss-url-panel">
+	<div class="row">
+		<div class="col-lg-3">
+			<p class="rss-text">Welcome to Rss Reader!!</p>
+		</div>
+		<div class="col-lg-9 col-lg-push-6 rss-url-box">
+           <input type="text" name="Enter RSS url" placeholder="Enter RSS feed Url" id="rssUrl" class="inputbox">
+       <button type="button" id="buttonToShow">Go</button>
+   </div>
+		</div>
+	</div>
+</div>
+<div class="container-fluid rss-title-bar">
+	<div class="row">
+		<p id="title-rss-feed"></p>
+		<p id="description-rss-feed"></p>
+	</div>
+</div>
+<!-- <textarea id="jasonText" cols="20" rows="20"> </textarea> -->
+<div id="onFlyDiv">
+
+	</div>
+		
+		 <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="rss.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</body>
+</html>
